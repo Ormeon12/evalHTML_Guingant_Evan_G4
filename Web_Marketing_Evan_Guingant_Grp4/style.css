@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f4e3;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e401e;
+    padding: 15px 30px;
+}
+
+.logo img {
+    width: 70px;
+}
+
+nav a {
+    color: #ffcc00;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth-buttons .btn {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.auth-buttons .white {
+    background: white;
+}
+
+.auth-buttons .black {
+    background: black;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: url('background.jpg') no-repeat center center/cover;
+}
+
+.hero-text {
+    color: white;
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 2em;
+}
+
+.hero-image img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.feature-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.testimonials {
+    text-align: center;
+    padding: 40px;
+    background: #f8f4e3;
+}
+
+.testimonial {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+footer {
+    background: #1e401e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.logos img {
+    width: 60px;
+    margin: 20px;
+}
+
+.backimage {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-image: url(assets/Nourriture\ végé.png);
+}
+
+.slider-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-80%, -50%);
+    /* Centre l'image parfaitement */
+    height: auto;
+    width: auto;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.slider-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Centre l'image parfaitement */
+    height: auto;
+    width: auto;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.slider-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Centre l'image parfaitement */
+    height: auto;
+    width: auto;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.hero-slider {
+    width: 300px;
+}
+
+swipe-container {
+    height: 50px;
+}
+
+swiper-slide {
+    height: 300px;
+}
+
+.button {
+    font-size: 1.5rem;
+    color: #fafafa;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #fafafa;
+    background: #252525;
+    box-shadow: 3px 3px #fafafa;
+    cursor: pointer;
+    margin: 25px 0;
+}
+
+.button2 {
+    font-size: 1.5rem;
+    color: #252525;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #252525;
+    background: #fafafa;
+    box-shadow: 3px 3px #252525;
+    cursor: pointer;
+    margin: 25px 0;
+}
+
+button:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
+}
+
+p {
+    color: #BBAA4F;
+}
+
+h2 {
+    color: #714A00;
+}
